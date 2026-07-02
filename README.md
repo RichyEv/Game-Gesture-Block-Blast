@@ -51,15 +51,22 @@ Demi alasan keamanan jaringan (Security Best Practice), token asli pada reposito
     3. Masukkan token bot Telegram Anda sendiri:
 
 TELE_TOKEN = "MASUKKAN_TOKEN_BOT_TELEGRAM_ANDA_DISINI"
+
 🎮 Cara Menjalankan & Memainkan Game
 Setelah semua pustaka terinstall dan token telah dikonfigurasi, jalankan game menggunakan perintah:
 python GameGBB.py
+
 Panduan Bermain:
+
     1. Pairing Telegram: Saat game pertama kali dibuka, sistem akan menampilkan kode token aktivasi 4-digit di layar. Kirimkan kode tersebut ke Bot Telegram Anda untuk menghubungkan akun permainan.
+    
     2. Kontrol Navigasi: Arahkan telapak tangan Anda di depan kamera. Kursor di layar game akan bergerak mengikuti pergerakan tangan Anda secara halus (smoothed position).
+    
     3. Mengambil & Meletakkan Blok: * Kepalkan tangan Anda di atas blok pilihan untuk mengambil/mengunci posisi blok (dragging).
         ◦ Buka kepalan tangan Anda (telapak tangan terbuka) untuk menjatuhkan blok tersebut ke dalam area papan 8x8.
+        
     4. Sistem Kuis: Jika kuis muncul di layar, jawab pertanyaan dengan benar untuk menyelamatkan permainan dari kondisi Game Over.
+    
     5. Penyimpanan Data: 
     • Skor tertinggi (Highscore) akan otomatis disimpan secara lokal di direktori ~ dalam bentuk file teks. 
     • Hasil dokumentasi screenshot (.jpg) akan disimpan di folder yang sama dengan file game.
