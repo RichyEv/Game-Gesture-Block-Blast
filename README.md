@@ -58,7 +58,7 @@ python GameGBB.py
 
 Panduan Bermain:
 
-    1. Pairing Telegram: Saat game pertama kali dibuka, sistem akan menampilkan kode token aktivasi 4-digit di layar. Kirimkan kode tersebut ke Bot Telegram Anda untuk menghubungkan akun permainan.
+    1. Pairing Telegram: Saat game pertama kali dibuka, sistem akan menampilkan kode token aktivasi 4-digit di layar. Kirimkan kode tersebut ke Bot Telegram @BBgesture_Bot untuk menghubungkan akun permainan.
     
     2. Kontrol Navigasi: Arahkan telapak tangan Anda di depan kamera. Kursor di layar game akan bergerak mengikuti pergerakan tangan Anda secara halus (smoothed position).
     
